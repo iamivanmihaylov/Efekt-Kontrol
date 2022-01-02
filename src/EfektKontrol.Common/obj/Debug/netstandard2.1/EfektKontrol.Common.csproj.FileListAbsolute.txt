@@ -1,0 +1,9 @@
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\bin\Debug\netstandard2.1\EfektKontrol.Common.deps.json
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\bin\Debug\netstandard2.1\EfektKontrol.Common.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\bin\Debug\netstandard2.1\EfektKontrol.Common.pdb
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\obj\Debug\netstandard2.1\EfektKontrol.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\obj\Debug\netstandard2.1\EfektKontrol.Common.AssemblyInfoInputs.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\obj\Debug\netstandard2.1\EfektKontrol.Common.AssemblyInfo.cs
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\obj\Debug\netstandard2.1\EfektKontrol.Common.csproj.CoreCompileInputs.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\obj\Debug\netstandard2.1\EfektKontrol.Common.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\EfektKontrol.Common\obj\Debug\netstandard2.1\EfektKontrol.Common.pdb

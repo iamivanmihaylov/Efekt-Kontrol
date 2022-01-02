@@ -1,0 +1,10 @@
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\bin\Debug\netstandard2.1\EfektKontrol.Services.deps.json
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\bin\Debug\netstandard2.1\EfektKontrol.Services.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\bin\Debug\netstandard2.1\EfektKontrol.Services.pdb
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\obj\Debug\netstandard2.1\EfektKontrol.Services.csproj.AssemblyReference.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\obj\Debug\netstandard2.1\EfektKontrol.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\obj\Debug\netstandard2.1\EfektKontrol.Services.AssemblyInfoInputs.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\obj\Debug\netstandard2.1\EfektKontrol.Services.AssemblyInfo.cs
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\obj\Debug\netstandard2.1\EfektKontrol.Services.csproj.CoreCompileInputs.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\obj\Debug\netstandard2.1\EfektKontrol.Services.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\Services\EfektKontrol.Services\obj\Debug\netstandard2.1\EfektKontrol.Services.pdb

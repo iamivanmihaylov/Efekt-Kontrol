@@ -1,0 +1,17 @@
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.deps.json
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.pdb
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Data.Common.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Data.Models.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Services.Mapping.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Data.Models.pdb
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Services.Mapping.pdb
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\bin\Debug\netstandard2.1\EfektKontrol.Data.Common.pdb
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.csproj.AssemblyReference.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.AssemblyInfoInputs.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.AssemblyInfo.cs
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.csproj.CoreCompileInputs.cache
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.csproj.CopyComplete
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.dll
+D:\Programming\Repositories\Efekt-Kontrol\src\Web\EfektKontrol.Web.ViewModels\obj\Debug\netstandard2.1\EfektKontrol.Web.ViewModels.pdb

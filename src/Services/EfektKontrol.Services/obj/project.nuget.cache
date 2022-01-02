@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+yNJy6XOx0nhf99UwxrLZAKpHOimRVMVMPlElYddx33TwrJzAQJkpj04ViuObCGeJQbbS28iMEw9K+jJQTd76w==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Repositories\\Efekt-Kontrol\\src\\Services\\EfektKontrol.Services\\EfektKontrol.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivan Mihaylov\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Ivan Mihaylov\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}
