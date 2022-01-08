@@ -1,0 +1,9 @@
+
+.o-primary-heading{
+    @include primary-font;
+    font-size: 30px;
+}
+
+.o-primary-heading--small-width{
+    width: 350px
+}

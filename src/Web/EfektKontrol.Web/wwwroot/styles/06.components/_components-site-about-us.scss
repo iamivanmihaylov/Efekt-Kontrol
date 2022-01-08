@@ -1,0 +1,42 @@
+.c-about-us{
+    background: $text-color-white;
+    padding: 70px 0px 400px 0px;
+    position: relative;
+    h2{
+        @include primary-font;
+        color: $primary-color;
+    }
+    
+    p{
+        @include secondary-font;
+        color: $secondary-color;
+    }
+
+    ul{
+        width: 625px;
+    }
+
+    img{
+        width: 500px;
+        margin-left: 450px;
+    }
+
+    .o-row-container{
+        justify-content: center;
+    }
+}
+
+.c-about-us__text{
+    font-size: 20px;
+}
+
+.c-about-us__list-item{
+    padding: 10px 0px;
+}
+
+.c-about-us::after{
+    content: url("./../../images/wave.svg");
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}

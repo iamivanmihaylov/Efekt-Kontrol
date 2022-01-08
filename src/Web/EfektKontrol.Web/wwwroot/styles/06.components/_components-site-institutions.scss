@@ -1,0 +1,31 @@
+.c-site-institutions{
+    background: $primary-color;
+    color: $text-color-white;
+    padding: 20px 150px 150px 150px;
+    position: relative;
+
+    .c-site-institutions__list__text{
+        @include secondary-font;
+        font-size: 20px
+    }
+
+    .c-site-institutions__title{
+        @include primary-font;
+        font-weight: bold;
+        width: 600px;
+        padding-bottom: 50px;
+    }
+
+    .c-site-institutions__list{
+        width: 1000px;
+        li{
+            padding: 20px 0px;
+        }
+    }
+
+    .o-airplane{
+        position: absolute;
+        font-size: 650px;
+        right: 200px;
+    }
+}

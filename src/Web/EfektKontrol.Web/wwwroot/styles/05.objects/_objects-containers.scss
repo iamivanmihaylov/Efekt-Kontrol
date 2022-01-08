@@ -1,0 +1,22 @@
+.o-row-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.o-row-container--center{
+    justify-content: center;
+}
+
+.o-column-container{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.o-column-container--left-center{
+    justify-content: center;
+}
+
+.o-primary-logo-container{
+    width: 150px;
+}

@@ -1,0 +1,15 @@
+.c-site-front{
+    background-image: url('../../images/main-image.png');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 0px 0px 170px;
+}
+
+.c-site-front__container{
+    align-items: flex-start;
+    .o-primary-button{
+        margin-top: 15px;
+    }
+}

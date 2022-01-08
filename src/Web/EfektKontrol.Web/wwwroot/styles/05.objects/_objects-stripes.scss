@@ -1,0 +1,23 @@
+.o-stripes{
+   width: 100px;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+   right: 40px;
+   display: flex;
+
+   &__element:nth-child(1){
+       position: relative;
+       background: $stripe-color;
+       width: 15px;
+       height: 100%;
+   }
+
+   &__element:nth-child(2){
+    position: relative;
+    background: $stripe-color;
+    width: 15px;
+    height: 100%;
+    left: 10px;
+}
+}
