@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@this.ViewData["Title"] - @GlobalConstants.SystemName</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/main.css" asp-append-version="true"/>
     <link rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -58,7 +57,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="c-site-header__authorization-section">
+            <div id="menu-container" class="c-site-header__authorization-section">
                 <nav>
                     <partial name="_LoginPartial" />
                 </nav>
@@ -114,6 +113,14 @@
     <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js" asp-append-version="true"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" asp-append-version="true"></script>
     <script src="~/js/site.min.js" asp-append-version="true"></script>
+    <script>
+        $('#menu-container').click(function () {
+            $('#menu').toggle();
+        });
+    </script>
     @await this.RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+
+    

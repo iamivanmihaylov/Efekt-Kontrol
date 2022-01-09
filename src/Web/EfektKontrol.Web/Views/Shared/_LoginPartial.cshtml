@@ -4,26 +4,48 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
-<ul class="o-row-container c-site-header__authorization-list">
 
-    @if (this.SignInManager.IsSignedIn(this.User))
-    {
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello, @this.User.Identity.Name!</a>
-        </li>
-        <li class="nav-item">
-            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@this.Url.Action("Index", "Home", new { area = string.Empty })">
-                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-            </form>
-        </li>
-    }
-    else
-    {
+@if (this.SignInManager.IsSignedIn(this.User))
+{
+    <div class="c-site-header__authorization-section__logged-in o-row-container">
+        <span>Здравей, @this.User.Identity.Name!</span>
+        <img src="./images/profile.png" alt="Profile picture.">
+    </div>
+    <div id="menu" class="c-site-header__authorization-section__menu">
+        <ul class="o-column-container">
+            <li class="c-site-header__authorization-section__menu__list-item">
+                <span class="c-site-header__authorization-section__menu__heading">Меню</span>
+            </li>
+            <li class="c-site-header__authorization-section__menu__list-item">
+                <a href="">Всички поръчки</a>
+            </li>
+            <li class="c-site-header__authorization-section__menu__list-item">
+                <a href="">Моят профил</a>
+            </li>
+            <li class="c-site-header__authorization-section__menu__list-item">
+                <a href="">Настройки</a>
+            </li>
+            <li class="c-site-header__authorization-section__menu__list-item">
+                <a href="">Известия</a>
+            </li>
+            <li class="c-site-header__authorization-section__menu__list-item">
+                <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@this.Url.Action("Index", "Home", new { area = string.Empty })">
+                    <button type="submit">Изход</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+
+}
+else
+{
+    <ul class="o-row-container c-site-header__authorization-list">
+
         <li>
             <a class="o-primary-button" asp-area="Identity" asp-page="/Account/Login">Вход</a>
         </li>
         <li>
             <a class="o-light-button" asp-area="Identity" asp-page="/Account/Register">Регистрация</a>
         </li>
-    }
-</ul>
+    </ul>
+}

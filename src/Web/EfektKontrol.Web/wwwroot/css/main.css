@@ -20,6 +20,10 @@ html {
   /* iOS 8+ */
 }
 
+ul {
+  margin: 0px;
+}
+
 *,
 ::before,
 ::after {
@@ -535,6 +539,57 @@ li {
 
 .c-site-header__authorization-section {
   margin-left: 100px;
+  position: relative;
+  align-items: center;
+}
+.c-site-header__authorization-section:hover {
+  cursor: pointer;
+}
+.c-site-header__authorization-section__logged-in img {
+  border-radius: 50%;
+  width: 50px;
+}
+.c-site-header__authorization-section__logged-in span {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.c-site-header__authorization-section__menu {
+  display: none;
+  position: absolute;
+  width: 400px;
+  bottom: -264px;
+  right: -50px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.c-site-header__authorization-section__menu__heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.c-site-header__authorization-section__menu ul {
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.c-site-header__authorization-section__menu__list-item {
+  width: 100%;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.c-site-header__authorization-section__menu__list-item a {
+  color: #001D37;
+}
+.c-site-header__authorization-section__menu__list-item:last-child {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.c-site-header__authorization-section__menu__list-item:hover {
+  background-color: grey;
 }
 
 .c-site-header__links-list li {

@@ -1,21 +1,22 @@
-.c-site-login {
+.c-site-login{
     @include primary-font;
     padding: 100px;
     height: 100vh;
 
-    &__box {
-        box-shadow: 9px 9px 30px rgba(0, 0, 0, 0.1), -9px -9px 30px rgba(0, 0, 0, 0.1);
+    &__box{
+        box-shadow: 9px 9px 30px rgba(0, 0, 0, 0.1),
+        -9px -9px 30px rgba(0, 0, 0, 0.1);
         border-radius: 22px;
         padding: 15px 30px 40px 30px;
 
-        &__form {
-            button {
+        &__form{
+            button{
                 align-self: center;
                 margin-top: 40px;
             }
         }
 
-        &__authorize-type {
+        &__authorize-type{
             justify-content: space-around;
             padding-bottom: 40px;
         }
