@@ -33,6 +33,14 @@ html {
   margin: 0; 
 }
 
+input{
+  display: block;
+}
+
+label{
+  display: block;
+}
+
 /* # =================================================================
    # General elements
    # ================================================================= */
@@ -233,6 +241,10 @@ select::-ms-expand {
 select::-ms-value {
   color: currentColor;
   /* Internet Explorer 11+ */ }
+
+fieldset{
+  border: none;
+}
 
 legend {
   border: 0;

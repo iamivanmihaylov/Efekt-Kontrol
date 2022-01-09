@@ -41,6 +41,14 @@ html {
   margin: 0;
 }
 
+input {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
 /* # =================================================================
    # General elements
    # ================================================================= */
@@ -276,6 +284,10 @@ select::-ms-value {
   /* Internet Explorer 11+ */
 }
 
+fieldset {
+  border: none;
+}
+
 legend {
   border: 0;
   /* Correct `color` not being inherited in IE 8/9/10/11 */
@@ -442,6 +454,9 @@ li {
   padding: 10px 18px;
   border-radius: 5px;
 }
+.o-primary-button--bigger {
+  padding: 15px 40px;
+}
 
 .o-light-button {
   color: #0097FF;
@@ -487,6 +502,20 @@ li {
   color: grey;
   font-style: italic;
   justify-self: center;
+}
+
+.o-input-form {
+  padding-bottom: 30px;
+  width: 400px;
+}
+.o-input-form input {
+  border-bottom: 2px solid #001D37;
+  font-size: 16px;
+  width: 100%;
+}
+.o-input-form label {
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 
 /*6.Components*/
@@ -642,6 +671,32 @@ li {
   position: absolute;
   right: 50px;
   top: 50px;
+}
+
+.c-site-footer--minimal .o-primary-logo-container {
+  display: none;
+}
+.c-site-footer--minimal .o-row-container {
+  padding: 20px 0px;
+}
+
+.c-site-login {
+  font-family: "Montserrat", sans-serif;
+  padding: 100px;
+  height: 100vh;
+}
+.c-site-login__box {
+  box-shadow: 9px 9px 30px rgba(0, 0, 0, 0.1), -9px -9px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+  padding: 15px 30px 40px 30px;
+}
+.c-site-login__box__form button {
+  align-self: center;
+  margin-top: 40px;
+}
+.c-site-login__box__authorize-type {
+  justify-content: space-around;
+  padding-bottom: 40px;
 }
 
 /*7.Utilities*/

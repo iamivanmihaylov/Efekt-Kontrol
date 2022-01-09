@@ -7,7 +7,3 @@ gulp.task('sass-compile', async function () {
         .pipe(sass())
         .pipe(gulp.dest('./wwwroot/css'));
 });
-
-gulp.task('watch-sass', async function () {
-    gulp.watch('./wwwroot/styles/*.scss', gulp.series('sass-compile'));
-});
