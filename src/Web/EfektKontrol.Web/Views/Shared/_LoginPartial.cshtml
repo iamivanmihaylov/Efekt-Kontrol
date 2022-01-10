@@ -11,31 +11,30 @@
         <span>Здравей, @this.User.Identity.Name!</span>
         <img src="./images/profile.png" alt="Profile picture.">
     </div>
-    <div id="menu" class="c-site-header__authorization-section__menu">
-        <ul class="o-column-container">
-            <li class="c-site-header__authorization-section__menu__list-item">
-                <span class="c-site-header__authorization-section__menu__heading">Меню</span>
+    <div id="menu" class="c-site-header__menu">
+        <ul class="c-site-header__menu-list o-column-container">
+            <li class="c-site-header__menu-list-item-heading">
+                <span class="c-site-header__menu-heading">Меню</span>
             </li>
-            <li class="c-site-header__authorization-section__menu__list-item">
-                <a href="">Всички поръчки</a>
+            <li class="c-site-header__menu-list-item">
+                <a class="c-site-header__menu-text" href="#">Всички поръчки</a>
             </li>
-            <li class="c-site-header__authorization-section__menu__list-item">
-                <a href="">Моят профил</a>
+            <li class="c-site-header__menu-list-item">
+                <a class="c-site-header__menu-text" href="#">Моят профил</a>
             </li>
-            <li class="c-site-header__authorization-section__menu__list-item">
-                <a href="">Настройки</a>
+            <li class="c-site-header__menu-list-item">
+                <a class="c-site-header__menu-text" href="#">Настройки</a>
             </li>
-            <li class="c-site-header__authorization-section__menu__list-item">
-                <a href="">Известия</a>
+            <li class="c-site-header__menu-list-item">
+                <a class="c-site-header__menu-text" href="#">Известия</a>
             </li>
-            <li class="c-site-header__authorization-section__menu__list-item">
-                <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@this.Url.Action("Index", "Home", new { area = string.Empty })">
-                    <button type="submit">Изход</button>
+            <li class="c-site-header__menu-list-item">
+                <form class="c-site-header__menu-form" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@this.Url.Action("Index", "Home", new { area = string.Empty })">
+                    <button class="c-site-header__menu-text" type="submit">Изход</button>
                 </form>
             </li>
         </ul>
     </div>
-
 }
 else
 {
@@ -48,4 +47,12 @@ else
             <a class="o-light-button" asp-area="Identity" asp-page="/Account/Register">Регистрация</a>
         </li>
     </ul>
+}
+
+@section Scripts{ 
+    <script>
+        $('#menu-container').click(function () {
+            $('#menu').toggle();
+        });
+    </script>
 }
